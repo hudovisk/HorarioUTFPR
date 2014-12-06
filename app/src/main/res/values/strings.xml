@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HorarioUTFPR</string>
+
+    <!-- MAIN ACTIVITY -->
+    <string name="horario_oficial_titulo">Horário Oficial</string>
+    <string name="horario_customizado_titulo">Horário Customizado</string>
+    <string name="segunda">Segunda</string>
+    <string name="terca">Terça</string>
+    <string name="quarta">Quarta</string>
+    <string name="quinta">Quinta</string>
+    <string name="sexta">Sexta</string>
+    <string name="sabado">Sábado</string>
+    <string name="professor">Professor(a):</string>
+    <string name="disciplina">Disciplina:</string>
+
+    <!-- MENU -->
+    <string name="action_configuracoes">Configurações</string>
+    <string name="action_mudar_horario_oficial">Horário Oficial</string>
+    <string name="action_mudar_horario_customizado">Horário Customizado</string>
+    <string name="action_novo_evento">Novo evento</string>
+    <string name="action_copiar">Copiar para Customizado</string>
+
+    <string name="action_editar_expandable_list_view">Editar</string>
+    <string name="action_excluir_expandable_list_view">Excluir</string>
+    <string name="action_visualizar_expandable_list_view">Visualizar Mapa</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- ATUALIZAR HORARIO DIALOG -->
+    <string name="matricula_atualizar_horario">Matrícula</string>
+    <string name="senha_atualizar_horario">Senha</string>
+    <string name="logar_atualizar_horario">Logar</string>
+    <string name="cancelar">Cancelar</string>
+
+    <!-- CRIAR EVENTO DIALOG -->
+    <string name="hora_inicio_criar_evento">Hora início:</string>
+    <string name="hora_fim_criar_evento">Hora termino:</string>
+    <string name="aula_check_box_criar_evento">Aula</string>
+    <string name="descricao_criar_evento">Descrição</string>
+
+    <string name="botao_criar_evento">Criar</string>
+
+    <string name="segunda_toggle">SEG</string>
+    <string name="terca_toggle">TER</string>
+    <string name="quarta_toggle">QUA</string>
+    <string name="quinta_toggle">QUI</string>
+    <string name="sexta_toggle">SEX</string>
+    <string name="sabado_toggle">SÁB</string>
+    <string name="domingo_toggle">DOM</string>
+
+</resources>

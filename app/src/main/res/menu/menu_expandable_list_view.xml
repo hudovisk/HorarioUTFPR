@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_editar_expandable_list_view" android:title="@string/action_editar_expandable_list_view"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/action_excluir_expandable_list_view" android:title="@string/action_excluir_expandable_list_view"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/action_visualizar_expandable_list_view" android:title="@string/action_visualizar_expandable_list_view"
+        android:orderInCategory="100" android:showAsAction="never" />
+</menu>

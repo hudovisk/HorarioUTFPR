@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hora_inicio_criar_evento"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="time"
+            android:ems="10"
+            android:id="@+id/hora_inicio_editText"
+            android:layout_weight="2"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hora_fim_criar_evento"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="time"
+            android:ems="10"
+            android:layout_weight="2"
+            android:id="@+id/hora_fim_editText" />
+    </TableRow>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ToggleButton
+            android:id="@+id/segunda_toggleButton"
+            android:textOn="@string/segunda_toggle"
+            android:textOff="@string/segunda_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ToggleButton
+            android:id="@+id/terca_toggleButton"
+            android:textOn="@string/terca_toggle"
+            android:textOff="@string/terca_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ToggleButton
+            android:id="@+id/quarta_toggleButton"
+            android:textOn="@string/quarta_toggle"
+            android:textOff="@string/quarta_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ToggleButton
+            android:id="@+id/quinta_toggleButton"
+            android:textOn="@string/quinta_toggle"
+            android:textOff="@string/quinta_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ToggleButton
+            android:id="@+id/sexta_toggleButton"
+            android:textOn="@string/sexta_toggle"
+            android:textOff="@string/sexta_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ToggleButton
+            android:id="@+id/sabado_toggleButton"
+            android:textOn="@string/sabado_toggle"
+            android:textOff="@string/sabado_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ToggleButton
+            android:id="@+id/domingo_toggleButton"
+            android:textOn="@string/domingo_toggle"
+            android:textOff="@string/domingo_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aula_check_box_criar_evento"
+        android:id="@+id/aula_checkBox"
+        android:checked="true" />
+
+    <LinearLayout
+        android:visibility="visible"
+        android:id="@+id/item_aula_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/professor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/professor_textView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_weight="2"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/disciplina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/disciplina_textView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_weight="2"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/descricao_criar_evento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/descricao_textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/edit_info_item"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_volume_on"
+            android:id="@+id/silencioso_button"
+            android:onClick="onSilenciosoClick"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_action_alarms_off"
+                    android:id="@+id/notificar_button"
+                    android:onClick="onNotificarClick"/>
+
+                <TextView
+                    android:id="@+id/item_hora_notificar"
+                    android:text="-- : --"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/item_hora_notificacao_text_size"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</TableLayout>

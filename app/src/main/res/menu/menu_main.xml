@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_configuracoes" android:title="@string/action_configuracoes"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/action_mudar_horario" android:title="@string/action_mudar_horario_oficial"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/action_novo_evento" android:title="@string/action_novo_evento"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/action_copiar" android:title="@string/action_copiar"
+        android:orderInCategory="100" android:showAsAction="never" />
+</menu>
